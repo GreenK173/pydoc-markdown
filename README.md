@@ -4,7 +4,7 @@ Added trailing comma in argument parsing in `docspec-python` + custom formatting
 
 Install:
 
-```
+```conf
 pip install git+https://github.com/GreenK173/pydoc-markdown
 ```
 
@@ -13,7 +13,7 @@ The working directory of the repo needs to contain the following two files.
 `.style.yapf`:
 
 ```
-[style]
+[style]conf
 based_on_style = facebook
 # split_all_top_level_comma_separated_values = true
 split_arguments_when_comma_terminated = true
