@@ -4,7 +4,7 @@ Added trailing comma in argument parsing in `docspec-python` + custom formatting
 
 Install:
 
-```shell
+```bat
 pip install git+https://github.com/GreenK173/pydoc-markdown
 ```
 
