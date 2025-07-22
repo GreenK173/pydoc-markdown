@@ -12,8 +12,8 @@ The working directory of the repo needs to contain the following two files.
 
 `.style.yapf`:
 
-```
-[style]conf
+```conf
+[style]
 based_on_style = facebook
 # split_all_top_level_comma_separated_values = true
 split_arguments_when_comma_terminated = true
@@ -21,7 +21,7 @@ split_arguments_when_comma_terminated = true
 
 `pydoc-markdown.yml`:
 
-```
+```yml
 loaders:
   - type: python
     search_path: ["./src"]
