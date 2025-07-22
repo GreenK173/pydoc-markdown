@@ -10,15 +10,6 @@ pip install git+https://github.com/GreenK173/pydoc-markdown
 
 The working directory of the repo needs to contain the following two files.
 
-`.style.yapf`:
-
-```ini
-[style]
-based_on_style = facebook
-# split_all_top_level_comma_separated_values = true
-split_arguments_when_comma_terminated = true
-```
-
 `pydoc-markdown.yml`:
 
 ```yml
@@ -47,6 +38,15 @@ renderer:
     "Variable": 4,
   }
 
+```
+
+`.style.yapf`:
+
+```ini
+[style]
+based_on_style = facebook
+# split_all_top_level_comma_separated_values = true
+split_arguments_when_comma_terminated = true
 ```
 
 The doc generator is run from the console simply by typing `pydoc-markdown`.
