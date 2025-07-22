@@ -29,7 +29,7 @@ click = ">=7.1,<9.0"
 "databind.core" = "^4.4.2"
 "databind.json" = "^4.4.2"
 docspec = "^2.2.1"
-docspec-python = "^2.2.1"
+docspec-python @ git+https://github.com/GreenK173/python-docspec
 docstring-parser = "^0.11"
 "nr.util" = ">=0.7.5,<1.0.0"
 jinja2 = "^3.0.0"
