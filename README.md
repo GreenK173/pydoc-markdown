@@ -1,6 +1,6 @@
 # Pydoc-Markdown
 
-Added trailing comma in argument parsing.
+Added trailing comma in argument parsing in `docspec-python` + custom formatting style.
 
 Install:
 
@@ -8,9 +8,11 @@ Install:
 pip install git+https://github.com/GreenK173/pydoc-markdown
 ```
 
+The working directory of the repo needs to contain the following two files.
+
 `.style.yapf`:
 
-```toml
+```powershell
 [style]
 based_on_style = facebook
 # split_all_top_level_comma_separated_values = true
@@ -44,4 +46,7 @@ renderer:
     "Function": 4,
     "Variable": 4,
   }
+
 ```
+
+The doc generator is run from the console simply by typing `pydoc-markdown`.
